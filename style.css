@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    color: white;
+    
+    background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000');
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, button{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+.loggedin-div input[type="text"]{
+    /* position: relative;
+    padding-left: 10px;
+    margin-left: 120px; */
+}
+
+
+div{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.main-div, .loggedin-div{
+    display: none;
+}
+
+
+
+div h3{
+    text-align: center;
+    font-family:  'Oswald', sans-serif;
+}
+
+
+.signup_div input, .main-div input, .loggedin-div input{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.main-div input:focus,  .loggedin-div input:focus{
+    border: 1px solid #999;
+}
+
+div button{
+    background-color: rgb(235, 17, 68);
+    color: white;
+    border: 1px solid rgb(40, 55, 222);
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+div button:hover{
+    background-color: white;
+    color: rgb(186, 30, 126);
+    border: 1px solid white;
+}
+
+#signup{
+    background: rgb(205, 119, 90);
+    color: snow;
+    border: 1px solid snow;
+}
+
+#signup:hover{
+    background: snow;
+    color: rgb(214, 92, 62);
+    border: 1px solid rgb(70, 247, 111);
+}
